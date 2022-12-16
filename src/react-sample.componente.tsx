@@ -9,7 +9,7 @@ export const ReactSampleComponente: FC<ReactSampleComponenteProps> = ({
 }) => {
   return (
     <>
-      <p>ReactSampleComponente: </p>
+      <p>ReactSampleComponente: {children ? '' : 'No Content'}</p>
       {children}
     </>
   );

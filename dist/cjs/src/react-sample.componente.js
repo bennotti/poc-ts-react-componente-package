@@ -9,7 +9,9 @@ var react_1 = __importDefault(require("react"));
 var ReactSampleComponente = function (_a) {
     var children = _a.children;
     return (react_1["default"].createElement(react_1["default"].Fragment, null,
-        react_1["default"].createElement("p", null, "ReactSampleComponente: "),
+        react_1["default"].createElement("p", null,
+            "ReactSampleComponente: ",
+            children ? '' : 'No Content'),
         children));
 };
 exports.ReactSampleComponente = ReactSampleComponente;
